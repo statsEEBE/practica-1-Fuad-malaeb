@@ -1,6 +1,6 @@
 #Codigo para problema 2
-
-rm(list=ls())
+ls()
+rm(list=ls()) # rm sirve para borrar
 data = mtcars
 data$mpg
 hist(data$mpg)
